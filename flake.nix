@@ -22,6 +22,7 @@
           buildInputs = [
             bacon
             cargo-msrv
+            dioxus-cli
             openssl
             pkg-config
             rust-bin.stable.latest.default
