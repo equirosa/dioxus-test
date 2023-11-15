@@ -28,7 +28,6 @@
             (rust-bin.stable.latest.default.override {
               targets = [ "wasm32-unknown-unknown" ];
             })
-            wasm-bindgen-cli
           ];
 
           shellHook = '' '';
